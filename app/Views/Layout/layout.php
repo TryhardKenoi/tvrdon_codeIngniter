@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="<?= base_url('assets/css/custom.css')?>">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap/bootstrap.min.css')?>">
 
     <!-- FontAwesome -->
-    <link rel="stylesheet" href="assets/css/fontawesome/all.min.css">
+    <link rel="stylesheet" href="<?= base_url('assets/css/fontawesome/all.min.css')?>">
     <link rel="icon" href="assets/images/profilovka.png">
     <title>Velká loupež auta: Pětečka</title>
 
@@ -24,21 +24,21 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="navbar-collapse collapse" id="navbarMenu">
-        <a href="index" class="profilovkaa">
+        <a href="<?= base_url('/');?>" class="profilovkaa">
             <img class="img-fluid" src="assets/images/gtalogo.png" alt="">
         </a>
         <ul class="navbar-nav pl-2">
             <li class="nav-item">
-                <a href="galery" class="nav-link font-weight-bold ">Galery</a>
+                <a href="<?= base_url('/galery');?>" class="nav-link font-weight-bold ">Galery</a>
             </li>
             <li class="nav-item">
-                <a href="progres" class="nav-link font-weight-bold ">Progres </a>
+                <a href="<?= base_url('/progres');?>" class="nav-link font-weight-bold ">Progres </a>
             </li>
             <li class="nav-item">
-                <a href="kontakt" class="nav-link font-weight-bold ">Kontakt </a>
+                <a href="<?= base_url('/kontakt');?>" class="nav-link font-weight-bold ">Kontakt </a>
             </li>
             <li class="nav-item">
-                <a href="zbytek" class="nav-link font-weight-bold ">Zbytek </a>
+                <a href="<?= base_url('/zbytek');?>" class="nav-link font-weight-bold ">Zbytek </a>
             </li>
         </ul>
         <ul class="navbar-nav ml-auto pt-2">
@@ -50,11 +50,11 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a href="login" class="nav-link font-weight-bold ">Přihlášení <i class="fas fa-sign-in-alt"></i></a>
+                <a href="<?= base_url('/login');?>" class="nav-link font-weight-bold ">Přihlášení <i class="fas fa-sign-in-alt"></i></a>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="register" class="nav-link font-weight-bold ">Register <i class="fas fa-user-plus"></i>
+                <a href="<?= base_url('/register');?>" class="nav-link font-weight-bold ">Register <i class="fas fa-user-plus"></i>
                 </a>
             </li>
         </ul>

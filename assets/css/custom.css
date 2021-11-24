@@ -1,0 +1,129 @@
+/*Main stuff*/
+main {
+    min-height: calc(100vh - 76px - 72px);
+}
+
+.jumbotron {
+    text-align: center;
+    height: 180px;
+    
+}
+
+body {
+    font-family: 'Microsoft YaHei';
+    margin: 0.25rem;
+
+    
+}
+
+img {
+    height: 405px;
+    width: 720px;
+    text-align: center;
+}
+
+.bootstrap {
+    width: 375px;
+	height: 375px;
+
+}
+
+.table  {
+    margin: 0 auto;
+    width: 300px;
+    height: 225px ;
+
+}
+
+.table2 {
+    margin: 0 0;
+    width: 600px;
+    height: 225px;
+}
+
+h3 {
+    text-align: center;
+}
+
+video {
+    height: 405px;
+    width: 720px;
+    padding: 0;
+}
+
+.japan {
+    max-height: 920px;
+    max-width: 729px;
+}
+
+
+.forms {
+    text-align: center;
+}
+
+
+.navbar {
+    background-color: #1E640A !important;
+}
+
+footer {
+    background-color: #1E640A !important;
+    overflow: hidden;
+}
+
+.form-control {
+    width: 500px !important;
+    
+
+}
+
+s.dropdown:hover .dropdown-content {
+    display: block;
+    }
+
+
+.wrapper {
+    max-height: 724px;
+    max-width: 1280px;
+}
+
+.profilovkaa {
+    width: 75px;
+    height: 75px;
+}
+
+.garage {
+    text-align: center;
+    font-size: 17px;
+}
+
+.podnadpis {
+    font-size: 20px;
+}
+
+.accordion {
+    background-color: #1E640A;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #1E640A;
+}
+
+.panel {
+    padding: 18px 0px 0px 10px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.btn {
+    background-color:#1E640A !important;
+}
